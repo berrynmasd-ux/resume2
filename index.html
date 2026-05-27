@@ -5,44 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keisha Montgomery | Professional Resume</title>
     <style>
-        :root {
-            --bg-dark: #121212;
-            --card-bg: #1e1e1e;
-            --text-main: #e0e0e0;
-            --accent: #007bff;
-            --text-dim: #aaaaaa;
-        }
-        body {
-            font-family: 'Segoe UI', Roboto, sans-serif;
-            background-color: var(--bg-dark);
-            color: var(--text-main);
-            margin: 0;
-            padding: 20px;
-        }
-        .resume-container {
-            max-width: 850px;
-            margin: auto;
-            background: var(--card-bg);
-            padding: 40px;
-            border-radius: 8px;
-            border-left: 5px solid var(--accent);
-            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-        }
-        header { border-bottom: 2px solid #333; padding-bottom: 20px; margin-bottom: 25px; }
-        h1 { margin: 0; color: #ffffff; font-size: 2.2em; }
-        .contact { color: var(--text-dim); margin-top: 10px; }
-        h2 { color: var(--accent); border-bottom: 1px solid #333; margin-top: 30px; padding-bottom: 5px; text-transform: uppercase; letter-spacing: 1px; }
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background-color: #f9f9f9; color: #333; margin: 0; padding: 40px; }
+        .resume-wrapper { max-width: 800px; margin: auto; background: #ffffff; padding: 50px; border: 1px solid #e0e0e0; box-shadow: 0 0 10px rgba(0,0,0,0.05); }
+        header { text-align: center; border-bottom: 2px solid #333; padding-bottom: 20px; margin-bottom: 30px; }
+        h1 { margin: 0; font-size: 28px; text-transform: uppercase; letter-spacing: 2px; color: #000; }
+        .contact { font-size: 14px; color: #666; margin-top: 10px; }
+        h2 { font-size: 16px; text-transform: uppercase; border-bottom: 1px solid #333; padding-bottom: 5px; margin-top: 30px; color: #333; }
         .job { margin-bottom: 25px; }
-        .job-title { font-weight: bold; color: #ffffff; font-size: 1.1em; }
-        .job-meta { color: var(--text-dim); font-style: italic; }
-        .date { float: right; color: #888; }
-        ul { padding-left: 20px; }
-        li { margin-bottom: 8px; }
-        .skills { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 15px; }
+        .job-header { display: flex; justify-content: space-between; font-weight: bold; margin-bottom: 5px; }
+        .job-title { font-size: 15px; }
+        .job-date { font-size: 14px; color: #555; }
+        ul { padding-left: 20px; margin-top: 5px; }
+        li { margin-bottom: 8px; font-size: 14px; color: #444; }
+        .skills-table { width: 100%; margin-top: 15px; font-size: 14px; }
+        .skills-table td { padding: 5px; }
     </style>
 </head>
 <body>
-    <div class="resume-container">
+    <div class="resume-wrapper">
         <header>
             <h1>Keisha Montgomery</h1>
             <div class="contact">Kingman, AZ | (520) 728-4557 | kmontgomery5111@hotmail.com</div>
@@ -50,55 +30,57 @@
 
         <section>
             <h2>Professional Summary</h2>
-            <p>Detail-oriented Administrative and Project Support Specialist with a robust background in heavy-highway construction and high-compliance environments. Expert in office management, labor compliance, and document control. Proven ability to streamline operations, manage complex data systems, and coordinate multi-disciplinary project teams to meet rigorous DOT standards.</p>
+            <p style="font-size: 14px;">Detail-oriented Administrative Specialist with an extensive background in project coordination, regulatory compliance, and high-volume document management. Proven ability to translate complex record-keeping and data entry requirements into efficient office operations. Adept at cross-functional communication and database administration, with experience navigating both heavy-highway construction and high-compliance social services frameworks.</p>
         </section>
 
         <section>
             <h2>Professional Experience</h2>
             
             <div class="job">
-                <div class="job-title">Field Office Manager | <span class="job-meta">Consultant Engineering, Inc.</span> <span class="date">2025–Present</span></div>
+                <div class="job-header"><span class="job-title">Field Office Manager | Consultant Engineering, Inc.</span> <span class="job-date">2025–Present</span></div>
                 <ul>
-                    <li>Manage administrative operations within a heavy-highway construction framework.</li>
-                    <li>Ensure labor compliance and conduct comprehensive file audits for project records.</li>
-                    <li>Execute payroll processing for multiple subcontractors and maintain rigorous tracking systems.</li>
-                    <li>Track and enter critical equipment data into the ADOT database, ensuring data integrity.</li>
+                    <li>Oversee project office administration, focusing on document control and ensuring all records meet rigorous DOT audit standards.</li>
+                    <li>Execute precise data entry for equipment, personnel, and daily production reports within the ADOT construction database.</li>
+                    <li>Manage high-volume payroll tracking for multiple subcontractors, ensuring strict adherence to labor compliance regulations.</li>
                 </ul>
             </div>
 
             <div class="job">
-                <div class="job-title">Case Manager | <span class="job-meta">Necco</span> <span class="date">2023–2024</span></div>
+                <div class="job-header"><span class="job-title">Case Manager | Necco</span> <span class="job-date">2023–2024</span></div>
                 <ul>
-                    <li>Managed complex case files and documentation for state-placed youth, ensuring strict regulatory adherence.</li>
-                    <li>Developed individualized treatment plans and performed intake procedures in high-compliance environments.</li>
+                    <li>Managed intricate documentation and case files, ensuring 100% accuracy in state-required record keeping and compliance reporting.</li>
+                    <li>Performed high-volume data entry and administrative processing for intake procedures, referrals, and treatment plan authorizations.</li>
+                    <li>Coordinated complex scheduling for multi-stakeholder meetings and maintained clear, efficient digital filing systems.</li>
                 </ul>
             </div>
 
             <div class="job">
-                <div class="job-title">Recruiter/Trainer | <span class="job-meta">StepStone Family & Youth Services</span> <span class="date">2020–2023</span></div>
+                <div class="job-title">Recruiter / Licensing Specialist | StepStone & Hope Hill</div>
+                <div class="job-date">2018–2023</div>
                 <ul>
-                    <li>Managed sensitive documentation, including background clearances and home inspections, to ensure full licensing compliance.</li>
-                    <li>Coordinated with community providers and stakeholders to maintain operational efficiency and recruitment pipelines.</li>
+                    <li>Managed end-to-end certification projects, requiring meticulous document collection, background clearance management, and site safety inspections.</li>
+                    <li>Developed and maintained professional pipelines of documentation, serving as the primary point of contact for compliance audits and regulatory licensing.</li>
+                    <li>Streamlined office workflows by managing database records, coordinating community partner communications, and ensuring all administrative deadlines were met.</li>
                 </ul>
             </div>
         </section>
 
         <section>
             <h2>Core Competencies</h2>
-            <div class="skills">
-                <ul>
-                    <li>Office & Payroll Management</li>
-                    <li>Labor Compliance & Audits</li>
-                    <li>Document Control</li>
-                    <li>Database Administration (DOT)</li>
-                </ul>
-                <ul>
-                    <li>Stakeholder Coordination</li>
-                    <li>Data Entry & Reporting</li>
-                    <li>Quality Assurance</li>
-                    <li>Project Management Software</li>
-                </ul>
-            </div>
+            <table class="skills-table">
+                <tr>
+                    <td>• Document Control & Auditing</td>
+                    <td>• Project & Office Coordination</td>
+                </tr>
+                <tr>
+                    <td>• Data Entry & Database Management</td>
+                    <td>• Payroll & Labor Compliance</td>
+                </tr>
+                <tr>
+                    <td>• Regulatory Reporting</td>
+                    <td>• Microsoft Office Suite (Excel/Project)</td>
+                </tr>
+            </table>
         </section>
     </div>
 </body>
