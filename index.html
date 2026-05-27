@@ -4,23 +4,31 @@
     <meta charset="UTF-8">
     <title>Keisha Montgomery Resume</title>
     <style>
-        body { font-family: 'Arial', sans-serif; background: #fff; color: #000; margin: 40px; }
-        .container { display: grid; grid-template-columns: 1fr 3fr; gap: 40px; max-width: 900px; margin: auto; }
-        h1 { font-size: 24px; text-transform: uppercase; margin: 0; }
-        h2 { font-size: 14px; text-transform: uppercase; border-bottom: 1px solid #000; padding-bottom: 5px; margin-top: 25px; }
-        .contact { font-size: 12px; margin-bottom: 20px; color: #333; }
-        .job { margin-bottom: 20px; }
-        .job-header { display: flex; justify-content: space-between; font-weight: bold; font-size: 13px; }
-        .role { font-size: 14px; }
-        ul { padding-left: 18px; margin: 5px 0; font-size: 13px; }
-        li { margin-bottom: 5px; }
-        .skills-list { font-size: 13px; list-style: none; padding: 0; }
+        body { font-family: 'Arial', sans-serif; background: #fff; color: #333; margin: 40px; }
+        .container { display: grid; grid-template-columns: 1fr 3fr; gap: 40px; max-width: 950px; margin: auto; }
+        
+        /* Sidebar Styling */
+        aside { background-color: #f4f4f4; padding: 20px; border-radius: 4px; }
+        .headshot { width: 100%; border-radius: 50%; margin-bottom: 20px; border: 3px solid #ccc; }
+        h1 { font-size: 20px; text-transform: uppercase; margin: 10px 0; }
+        h2 { font-size: 13px; text-transform: uppercase; border-bottom: 2px solid #ccc; padding-bottom: 5px; margin-top: 25px; color: #555; }
+        .contact { font-size: 12px; margin-bottom: 20px; line-height: 1.5; }
+        .skills-list { font-size: 12px; list-style: none; padding: 0; }
         .skills-list li { margin-bottom: 8px; }
+
+        /* Main Content Styling */
+        main h2 { font-size: 14px; text-transform: uppercase; border-bottom: 2px solid #ccc; padding-bottom: 5px; margin-top: 0; color: #555; }
+        .job { margin-bottom: 20px; }
+        .job-header { display: flex; justify-content: space-between; font-weight: bold; font-size: 13px; color: #222; }
+        .role { font-size: 13px; color: #444; margin-bottom: 5px; }
+        ul { padding-left: 18px; margin: 5px 0; font-size: 13px; color: #444; }
+        li { margin-bottom: 5px; }
     </style>
 </head>
 <body>
     <div class="container">
         <aside>
+            <img src="IMG_5874.png" alt="Keisha Montgomery" class="headshot">
             <h1>Keisha Montgomery</h1>
             <div class="contact">
                 Kingman, AZ 86409<br>
@@ -43,15 +51,15 @@
             <h2>Technical Skills</h2>
             <ul class="skills-list">
                 <li>• Microsoft Office Suite</li>
-                <li>• SharePoint</li>
-                <li>• ADOT Database Systems</li>
+                <li>• SharePoint / Databases</li>
+                <li>• ADOT Reporting Systems</li>
                 <li>• Project Tracking</li>
             </ul>
         </aside>
 
         <main>
             <h2>Professional Summary</h2>
-            <p style="font-size: 13px;">Versatile administrative professional with extensive experience managing high-stakes project documentation, data entry, and regulatory compliance within heavy-highway construction and social service frameworks. Proven ability to streamline complex workflows, facilitate multi-stakeholder coordination, and ensure precise record-keeping to meet strict state and federal standards.</p>
+            <p style="font-size: 13px; color: #444;">Versatile administrative professional with extensive experience managing high-stakes project documentation, data entry, and regulatory compliance within heavy-highway construction and social service frameworks. Proven ability to streamline complex workflows, facilitate multi-stakeholder coordination, and ensure precise record-keeping to meet strict state and federal standards.</p>
 
             <h2>Professional Experience</h2>
             
@@ -78,7 +86,7 @@
 
             <div class="job">
                 <div class="job-header"><span>Recruiter / Licensing Specialist</span> <span>2018 – 2023</span></div>
-                <div class="role">StepStone Family & Youth Services / Hope Hill | Prestonsburg, KY</div>
+                <div class="role">StepStone Family & Youth Services | Prestonsburg, KY</div>
                 <ul>
                     <li>Directed comprehensive document management for licensing, ensuring all records were audit-ready for government review.</li>
                     <li>Coordinated complex scheduling and outreach efforts to maintain community awareness and pipeline development.</li>
@@ -88,8 +96,8 @@
 
             <h2>Education</h2>
             <div class="job">
-                <div class="role"><strong>Bachelor of Social Work</strong></div>
-                <div style="font-size: 13px;">Morehead State University, Morehead, KY</div>
+                <div style="font-size: 13px; font-weight: bold;">Bachelor of Social Work</div>
+                <div style="font-size: 13px; color: #444;">Morehead State University, Morehead, KY</div>
             </div>
         </main>
     </div>
